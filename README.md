@@ -158,7 +158,7 @@ Constitutional Governance     Multi-Layer Enforcement      TDD (RED â†’ GREEN â†
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=macollins27&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F078&icon_color=00F078&text_color=c9d1d9&ring_color=00F078" height="170" />
+<img src="https://github-readme-stats.vercel.app/api?username=macollins27&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F078&icon_color=00F078&text_color=c9d1d9&ring_color=00F078" height="170" />
 <img src="https://github-readme-streak-stats.herokuapp.com?user=macollins27&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=00F078&ring=00F078&fire=00F078&currStreakLabel=00F078&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=555555" height="170" />
 
 </div>
