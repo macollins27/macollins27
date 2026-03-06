@@ -1,93 +1,64 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1a1a2e,100:0f3d2e&height=220&section=header&text=Maxwell%20Collins&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=AI%20Systems%20Engineer&descSize=18&descColor=00F078&descAlignY=55&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1a1a2e,100:0f3d2e&height=220&section=header&text=Maxwell%20Collins&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Solo%20Founder%20%7C%20Code%20Rescue&descSize=18&descColor=00F078&descAlignY=55&animation=fadeIn" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1000&color=00F078&center=true&vCenter=true&multiline=false&repeat=true&width=650&height=45&lines=I+architect+production+systems+that+pay+for+themselves.;DDD+%2B+CQRS+%2B+Event+Sourcing+%E2%80%94+not+tutorials%2C+production.;Built+a+governance+framework+for+AI-generated+code.;700%2B+tests.+94%25+branch+coverage.+Solo.;From+proptech+infrastructure+to+mobile+C2+systems.)](https://code-rescue.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1000&color=00F078&center=true&vCenter=true&multiline=false&repeat=true&width=650&height=45&lines=Economics+grad+who+chose+to+build+things+instead.;My+portfolio+is+a+desktop+OS+in+your+browser.;Solo+founder.+Every+system%2C+every+architecture+decision.;17%2B+repos.+700%2B+tests.+All+production%2C+zero+tutorials.)](https://code-rescue.com)
 
 </div>
 
 ---
 
-### About me
+### `> whoami`
 
-I'm an AI Systems Engineer who builds production-grade software ecosystems — solo, augmented by AI. Self-taught coder since 2017, BS in Economics & Finance, founded [Code Rescue](https://code-rescue.com) in 2022.
+Self-taught coder since 2017 with a BS in Economics & Finance. Founded [Code Rescue](https://code-rescue.com) in 2022 — a solo studio that ships production systems from zero to deployment. I build *with* AI as a force multiplier, not *about* AI as a buzzword. My economics background means every system I ship has to justify its own existence — if it doesn't generate ROI, it doesn't ship.
 
-I don't build CRUD apps. I build **governed multi-product ecosystems** with constitutional enforcement, real-time quality gates, and architecture that scales. My economics background means every system I ship has one requirement: **it has to generate ROI from day one.**
+My portfolio? It's a [desktop operating system](https://code-rescue.com) you can use in your browser. Draggable windows, taskbar, terminal emulator, particle effects. Because if your portfolio doesn't ship like a product, what are you even doing?
 
 <br>
 
-### Featured work
+### `> ls -la ~/shipped`
 
-<table>
-<tr><td>
+```
+~/shipped
+├── code-rescue-os           desktop OS portfolio — windows, taskbar, terminal, particles, screensaver
+├── bims-corp                proptech ecosystem — 6 apps in an Nx monorepo, DDD + CQRS
+├── codex-audit              AI codebase audit platform — replaces $50K+ manual reviews
+├── greenwood-hall           production venue management — Stripe, Docker, full e2e
+├── guardrails-plugin        AI governance for Claude Code — constitutional enforcement, published
+├── ops-command-center       real-time command & control — React Native, WebSocket
+├── mac-invoices             GitHub-powered invoice SaaS
+├── ai-coach-engine          Anthropic-powered coaching platform
+├── my-ai-tracker            VS Code extension — published to marketplace
+├── nestjs-clean-arch        Clean Architecture boilerplate — NestJS + PostgreSQL
+├── clear-report             report generation application
+├── life-sphere              life management platform
+└── ...17+ repositories total
+```
 
-**BIMS-Corp — Property Infrastructure Ecosystem**
-<br>12 interconnected products (API + SSO + 5 Web + 5 Mobile) serving 500M+ properties globally. DDD + Clean Architecture + CQRS + Event Sourcing. 39-table schema, 7-step permission resolution, immutability-first design.
+<details>
+<summary><b>spotlight on the big ones</b></summary>
+<br>
+
+**Code Rescue OS** — Full desktop experience in the browser. Draggable windows with snap-to-edge, taskbar, context menus, particle effects, Three.js god rays, terminal emulator, screensaver. Apps, not pages.
+<br>`Next.js` `React 19` `Three.js` `Framer Motion`
+
+**BIMS-Corp** — Property infrastructure ecosystem. 6 interconnected applications (web + mobile) in an Nx workspace. Domain-Driven Design, Clean Architecture, CQRS + Event Sourcing. 39-table schema, immutability-first design.
 <br>`NestJS` `PostgreSQL + PostGIS` `React Native` `TypeScript strict`
 
-</td><td>
+**Codex Audit** — AI-powered technical due diligence. 6-stage pipeline scans any codebase and generates 30-80 page audit reports with deterministic discovery and evidence tracing.
+<br>`Anthropic API` `Node.js` `pnpm Monorepo`
 
-**Mobile Command Center**
-<br>Native iOS/Android app for real-time command-and-control over Claude Code from your phone. WebSocket relay daemon wrapping Claude Agent SDK, 38 message types, Ed25519 auth, LAN-first + Tailscale mesh.
-<br>`React Native 0.79` `Node.js 22` `Claude Agent SDK` `700+ tests`
+**Greenwood Hall** — Production 4-portal booking platform for a Long Island event venue. Customer portal, admin dashboard, superintendent portal. Stripe payments, Google Calendar sync, contract management. Dockerized with full e2e test coverage.
+<br>`Next.js 14` `Prisma` `Stripe` `Docker`
 
-</td></tr>
-<tr><td>
-
-**Codex Audit — AI Due Diligence Platform**
-<br>6-stage pipeline that scans any codebase and generates 30-80 page technical audit reports. Replaces $50K-$150K manual reviews. Deterministic discovery + AI analysis with evidence tracing.
-<br>`Anthropic API` `Node.js` `Monorepo` `Claude-powered`
-
-</td><td>
-
-**GuardRails — AI Governance Plugin**
-<br>Defense-in-depth governance system for Claude Code. 11-question setup wizard generates a full constitutional enforcement stack — truth docs, hookify rules, TDD pipeline, and quality gates.
+**GuardRails** — Defense-in-depth governance plugin for Claude Code. 11-question setup wizard generates a full constitutional enforcement stack — truth docs, hookify rules, TDD pipeline, and quality gates.
 <br>`Claude Code Plugin` `87 files` `~8,000 lines` `Published`
 
-</td></tr>
-<tr><td>
-
-**Greenwood Hall — Venue Management System**
-<br>Production 4-portal booking platform for a Long Island event venue. Customer portal, admin dashboard, superintendent portal. Stripe payments, Google Calendar sync, contract management.
-<br>`Next.js 14` `Prisma` `Stripe` `Railway`
-
-</td><td>
-
-**MAC-Ecosystem Governance Framework**
-<br>10 constitutional invariants enforced via 3-layer stack: 27 hookify rules (real-time), 5 AST-grep validators (semantic), session lifecycle hooks. 7-skill pipeline from `/specify` through `/reflect`.
-<br>`ast-grep` `Hookify` `35 test rules` `3-tier memory`
-
-</td></tr>
-<tr><td>
-
-**Superpowers — AI Dev Workflow Plugin**
-<br>Composable skills library for AI-driven development. Structured workflow from brainstorming through spec, plan, implementation, review, and reflection. Published to marketplace.
-<br>`Claude Code` `Codex` `OpenCode` `Open Source`
-
-</td><td>
-
-**Code Rescue OS — Interactive Portfolio**
-<br>A full desktop OS experience in the browser. Draggable windows with snap-to-edge, taskbar, context menus, particle effects, Three.js god rays, terminal emulator. Apps, not pages.
-<br>`Next.js 16` `React 19` `Three.js` `Framer Motion`
-
-</td></tr>
-</table>
-
-Also shipped: **MAC-Invoices** (GitHub-powered invoice SaaS), **AI Coach Engine** (Anthropic-powered coaching platform), **My-AI-Tracker** (VS Code extension — published), **Ops Command Center**, **NestJS Clean Architecture Boilerplate**, and more.
+</details>
 
 <br>
 
-### Architecture & patterns I work in
-
-```
-Domain-Driven Design          CQRS + Event Sourcing       Clean Architecture
-Protocol Contract Design      Trunk-Based Development     Spec-Driven Development
-Constitutional Governance     Multi-Layer Enforcement      TDD (RED → GREEN → GATE)
-```
-
-<br>
-
-### Tech stack
+### `> cat ~/.config/stack`
 
 <div align="center">
 
@@ -135,26 +106,26 @@ Constitutional Governance     Multi-Layer Enforcement      TDD (RED → GREEN �
 
 <br>
 
-### By the numbers
+### `> neofetch`
 
-<div align="center">
-
-| Metric | Value |
-|---|---|
-| Production systems shipped | **12+** |
-| Repositories built | **17+** |
-| Tests across projects | **700+** |
-| Best branch coverage | **94.47%** |
-| Constitutional invariants enforced | **10** |
-| Hookify governance rules | **27** |
-| Published plugins & extensions | **3** |
-| Founded | **2022** |
-
-</div>
+```
+maxwell@code-rescue
+──────────────────────────────
+OS          macOS → production
+Uptime      coding since 2017
+Shell       TypeScript (strict)
+Degree      BS Economics & Finance
+Repos       17+
+Tests       700+
+Coverage    94.47% best branch
+Plugins     2 published
+Patterns    DDD · CQRS · Clean Architecture · TDD
+Founded     Code Rescue, 2022
+```
 
 <br>
 
-### GitHub stats
+### `> git log --graph`
 
 <div align="center">
 
@@ -165,7 +136,7 @@ Constitutional Governance     Multi-Layer Enforcement      TDD (RED → GREEN �
 
 <br>
 
-### Let's work together
+### `> open ~/.contact`
 
 <div align="center">
 
@@ -179,7 +150,7 @@ Constitutional Governance     Multi-Layer Enforcement      TDD (RED → GREEN �
 <br>
 
 <div align="center">
-<i>"If I can't clearly show how a system pays for itself, I'll tell you before we start."</i>
+<code>// if I can't show how a system pays for itself, I'll tell you before we start.</code>
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3d2e,50:1a1a2e,100:0a0a0f&height=120&section=footer" />
