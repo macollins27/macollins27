@@ -10,7 +10,7 @@
 
 ### `> whoami`
 
-Self-taught coder since 2017 with a BS in Economics & Finance. Founded [Code Rescue](https://code-rescue.com) in 2022 — a solo studio that ships production systems from zero to deployment. I build *with* AI as a force multiplier, not *about* AI as a buzzword. My economics background means every system I ship has to justify its own existence — if it doesn't generate ROI, it doesn't ship.
+Self-taught coder since 2009 with a BS in Economics & Finance. Founded [Code Rescue](https://code-rescue.com) in 2022 — a solo studio that ships production systems from zero to deployment. I build *with* AI as a force multiplier, not *about* AI as a buzzword. My economics background means every system I ship has to justify its own existence — if it doesn't generate ROI, it doesn't ship.
 
 My portfolio? It's a [desktop operating system](https://code-rescue.com) you can use in your browser. Draggable windows, taskbar, terminal emulator, particle effects. Because if your portfolio doesn't ship like a product, what are you even doing?
 
