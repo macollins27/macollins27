@@ -112,7 +112,7 @@ My portfolio? It's a [desktop operating system](https://maxwellacollins.com) you
 maxwell@code-rescue
 ──────────────────────────────
 OS          macOS → production
-Uptime      coding since 2017
+Uptime      coding since 2009
 Shell       TypeScript (strict)
 Degree      BS Economics & Finance
 Repos       17+
