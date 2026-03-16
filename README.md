@@ -1,156 +1,182 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1a1a2e,100:0f3d2e&height=220&section=header&text=Maxwell%20Collins&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Solo%20Founder%20%7C%20Code%20Rescue&descSize=18&descColor=00F078&descAlignY=55&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:111111,100:0a0a0a&height=200&section=header&text=Maxwell%20Collins&fontSize=50&fontColor=fafafa&fontAlignY=38&desc=Software%20Studio&descSize=16&descColor=666666&descAlignY=58&animation=fadeIn" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&pause=1000&color=00F078&center=true&vCenter=true&multiline=false&repeat=true&width=650&height=45&lines=Economics+grad+who+chose+to+build+things+instead.;My+portfolio+is+a+desktop+OS+in+your+browser.;Solo+founder.+Every+system%2C+every+architecture+decision.;17%2B+repos.+700%2B+tests.+All+production%2C+zero+tutorials.)](https://code-rescue.com)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=300&size=20&pause=1200&color=999999&center=true&vCenter=true&multiline=false&repeat=true&width=600&height=40&lines=Production-grade+platforms+in+90+days.;One+engineer.+No+shortcuts.;20%2B+systems.+13%2C000%2B+source+files.;The+infrastructure+that+startups+scale+on.)](https://maxcollins.dev)
 
 </div>
 
----
+<br>
 
-### `> whoami`
+```
+maxwell@studio ~ %
+```
 
-Self-taught coder since 2017 with a BS in Economics & Finance. Founded [Code Rescue](https://code-rescue.com) in 2022 — a solo studio that ships production systems from zero to deployment. I build *with* AI as a force multiplier, not *about* AI as a buzzword. My economics background means every system I ship has to justify its own existence — if it doesn't generate ROI, it doesn't ship.
-
-My portfolio? It's a [desktop operating system](https://code-rescue.com) you can use in your browser. Draggable windows, taskbar, terminal emulator, particle effects. Because if your portfolio doesn't ship like a product, what are you even doing?
+I build entire platforms solo — APIs, databases, permission systems, deduplication pipelines, AI agent orchestration. What takes teams 12–18 months, I ship in 90 days, tested, documented, and deployed. Economics degree, self-taught engineer since 2017.
 
 <br>
 
-### `> ls -la ~/shipped`
+### Selected Work
 
-```
-~/shipped
-├── code-rescue-os           desktop OS portfolio — windows, taskbar, terminal, particles, screensaver
-├── bims-corp                proptech ecosystem — 6 apps in an Nx monorepo, DDD + CQRS
-├── codex-audit              AI codebase audit platform — replaces $50K+ manual reviews
-├── greenwood-hall           production venue management — Stripe, Docker, full e2e
-├── guardrails-plugin        AI governance for Claude Code — constitutional enforcement, published
-├── ops-command-center       real-time command & control — React Native, WebSocket
-├── mac-invoices             GitHub-powered invoice SaaS
-├── ai-coach-engine          Anthropic-powered coaching platform
-├── my-ai-tracker            VS Code extension — published to marketplace
-├── nestjs-clean-arch        Clean Architecture boilerplate — NestJS + PostgreSQL
-├── clear-report             report generation application
-├── life-sphere              life management platform
-└── ...17+ repositories total
-```
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[Property Linkware](https://github.com/BIMS-Corp/Property-Linkware-App)** — Enterprise API
+<br><sub>Universal property data infrastructure. 7-step permission system, automated deduplication, immutable observation history, 34-event webhooks.</sub>
+
+`170+ endpoints` `33 tables` `594 tests` `87+ services`
+<br><sub>NestJS · PostgreSQL · PostGIS · DDD + CQRS · Docker</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**Helm Intelligence** — AI Platform
+<br><sub>Autonomous voice agent improvement. Ingests call transcripts, scores quality, detects failure patterns, generates AI-driven fixes with multi-model routing.</sub>
+
+`4,300+ files` `6-stage pipeline` `Multi-model routing`
+<br><sub>Fastify · BullMQ · Redis · Claude AI · Drizzle</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Codex Audit** — AI Code Analysis
+<br><sub>M&A-grade technical due diligence in days, not months. 6-stage pipeline with RAG risk scoring. $100 in API costs replaces $150K+ engagements.</sub>
+
+`510 files` `6 analysis stages` `Budget tracking`
+<br><sub>NestJS · Next.js · Claude API · LRU Cache</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**Greenwood Hall** — Full-Stack SaaS
+<br><sub>Event booking platform with Stripe payments, automated email, PostHog analytics, Sentry monitoring, Playwright E2E tests, k6 load testing.</sub>
+
+`937 files` `E2E tested` `Load tested`
+<br><sub>Next.js · Prisma · Stripe · Playwright</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Outreach Engine** — Lead Intelligence
+<br><sub>Automated B2B lead pipeline. Multi-source ingestion, quality scoring, website/review analysis, market signal detection, Slack alerts.</sub>
+
+`4,200+ files` `Auto scoring` `Daily summaries`
+<br><sub>Fastify · Neon · Apollo.io · Cron</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**Mobile Command Center** — React Native
+<br><sub>Mobile app for remotely controlling AI agents. WebSocket relay wraps Claude Agent SDK. QR pairing, real-time task management, approval controls.</sub>
+
+`iOS + Android` `Real-time WebSocket`
+<br><sub>React Native · Node.js · Claude SDK</sub>
+
+</td>
+</tr>
+</table>
 
 <details>
-<summary><b>spotlight on the big ones</b></summary>
+<summary><b>+ more projects</b></summary>
 <br>
 
-**Code Rescue OS** — Full desktop experience in the browser. Draggable windows with snap-to-edge, taskbar, context menus, particle effects, Three.js god rays, terminal emulator, screensaver. Apps, not pages.
-<br>`Next.js` `React 19` `Three.js` `Framer Motion`
-
-**BIMS-Corp** — Property infrastructure ecosystem. 6 interconnected applications (web + mobile) in an Nx workspace. Domain-Driven Design, Clean Architecture, CQRS + Event Sourcing. 39-table schema, immutability-first design.
-<br>`NestJS` `PostgreSQL + PostGIS` `React Native` `TypeScript strict`
-
-**Codex Audit** — AI-powered technical due diligence. 6-stage pipeline scans any codebase and generates 30-80 page audit reports with deterministic discovery and evidence tracing.
-<br>`Anthropic API` `Node.js` `pnpm Monorepo`
-
-**Greenwood Hall** — Production 4-portal booking platform for a Long Island event venue. Customer portal, admin dashboard, superintendent portal. Stripe payments, Google Calendar sync, contract management. Dockerized with full e2e test coverage.
-<br>`Next.js 14` `Prisma` `Stripe` `Docker`
-
-**GuardRails** — Defense-in-depth governance plugin for Claude Code. 11-question setup wizard generates a full constitutional enforcement stack — truth docs, hookify rules, TDD pipeline, and quality gates.
-<br>`Claude Code Plugin` `87 files` `~8,000 lines` `Published`
+| Project | Stack | What It Does |
+|---------|-------|-------------|
+| **Property Organizer** | Next.js, Prisma | Free property asset management platform |
+| **PLW Hub** | Next.js, Turbo | Authentication gateway for BIMS ecosystem |
+| **MAC Invoices** | Next.js, Prisma, Puppeteer | Invoice management with PDF generation |
+| **Apollo MCP Server** | MCP SDK, TypeScript | 60+ tool server wrapping Apollo CRM API |
+| **AI Coach Engine** | Next.js, Anthropic SDK | Consulting/coaching platform with AI |
+| **Guardrails Plugin** | Bash, YAML | AI governance framework for Claude Code |
+| **Certified Environment** | Express, React, Drizzle | Full-stack dev environment with WebSocket |
+| **Code Rescue** | Next.js, Neon, Stripe | Technical due diligence SaaS platform |
 
 </details>
 
 <br>
 
-### `> cat ~/.config/stack`
+### By the Numbers
+
+```
+──────────────────────────────────────────────────────
+  20+  production systems shipped
+  13K+ source files across all repos
+  594  tests in Property Linkware alone
+  170+ API endpoints (PLW)
+  33   database tables (PLW)
+  87+  services (PLW)
+  80%+ branch coverage enforced
+  90   days — average project delivery
+──────────────────────────────────────────────────────
+```
+
+<br>
+
+### Stack
 
 <div align="center">
 
-**Languages & Runtimes**
+**Core**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js_22-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0a?style=flat-square&logo=typescript&logoColor=999)
+![NestJS](https://img.shields.io/badge/NestJS-0a0a0a?style=flat-square&logo=nestjs&logoColor=999)
+![Next.js](https://img.shields.io/badge/Next.js-0a0a0a?style=flat-square&logo=nextdotjs&logoColor=999)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0a0a?style=flat-square&logo=postgresql&logoColor=999)
+![React](https://img.shields.io/badge/React-0a0a0a?style=flat-square&logo=react&logoColor=999)
+![Node.js](https://img.shields.io/badge/Node.js-0a0a0a?style=flat-square&logo=nodedotjs&logoColor=999)
 
-**Frontend & Mobile**
+**Data & Infrastructure**
 
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
-![Astro](https://img.shields.io/badge/Astro-BC52EE?style=for-the-badge&logo=astro&logoColor=white)
-
-**Backend & Data**
-
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PostGIS](https://img.shields.io/badge/PostGIS-0a0a0a?style=flat-square&logo=postgresql&logoColor=666)
+![Prisma](https://img.shields.io/badge/Prisma-0a0a0a?style=flat-square&logo=prisma&logoColor=666)
+![TypeORM](https://img.shields.io/badge/TypeORM-0a0a0a?style=flat-square&logo=typeorm&logoColor=666)
+![Drizzle](https://img.shields.io/badge/Drizzle-0a0a0a?style=flat-square&logo=drizzle&logoColor=666)
+![Docker](https://img.shields.io/badge/Docker-0a0a0a?style=flat-square&logo=docker&logoColor=666)
+![Redis](https://img.shields.io/badge/Redis-0a0a0a?style=flat-square&logo=redis&logoColor=666)
+![AWS S3](https://img.shields.io/badge/AWS_S3-0a0a0a?style=flat-square&logo=amazons3&logoColor=666)
 
 **AI & Automation**
 
-![Claude](https://img.shields.io/badge/Claude_SDK-D4A574?style=for-the-badge&logo=anthropic&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude_API-0a0a0a?style=flat-square&logo=anthropic&logoColor=666)
+![BullMQ](https://img.shields.io/badge/BullMQ-0a0a0a?style=flat-square&logo=redis&logoColor=666)
+![Fastify](https://img.shields.io/badge/Fastify-0a0a0a?style=flat-square&logo=fastify&logoColor=666)
+![Stripe](https://img.shields.io/badge/Stripe-0a0a0a?style=flat-square&logo=stripe&logoColor=666)
 
-**Infrastructure & Testing**
+**Quality**
 
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Jest](https://img.shields.io/badge/Jest-0a0a0a?style=flat-square&logo=jest&logoColor=666)
+![Playwright](https://img.shields.io/badge/Playwright-0a0a0a?style=flat-square&logo=playwright&logoColor=666)
+![Vitest](https://img.shields.io/badge/Vitest-0a0a0a?style=flat-square&logo=vitest&logoColor=666)
+![Pact](https://img.shields.io/badge/Pact-0a0a0a?style=flat-square&logo=pact&logoColor=666)
 
 </div>
 
 <br>
 
-### `> neofetch`
+### Architecture Patterns
 
 ```
-maxwell@code-rescue
-──────────────────────────────
-OS          macOS → production
-Uptime      coding since 2017
-Shell       TypeScript (strict)
-Degree      BS Economics & Finance
-Repos       17+
-Tests       700+
-Coverage    94.47% best branch
-Plugins     2 published
-Patterns    DDD · CQRS · Clean Architecture · TDD
-Founded     Code Rescue, 2022
+DDD (Domain-Driven Design)  ·  CQRS  ·  Clean Architecture  ·  Event-Driven
+Repository Pattern  ·  Saga Pattern  ·  TDD  ·  Contract Testing (Pact)
 ```
 
 <br>
 
-### `> git log --graph`
-
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=macollins27&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=00F078&icon_color=00F078&text_color=c9d1d9&ring_color=00F078" height="170" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=macollins27&theme=github-dark-blue&hide_border=true&background=0D1117&stroke=00F078&ring=00F078&fire=00F078&currStreakLabel=00F078&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=555555" height="170" />
-
-</div>
+[![Portfolio](https://img.shields.io/badge/maxcollins.dev-0a0a0a?style=for-the-badge&logoColor=fafafa)](https://maxcollins.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0a0a0a?style=for-the-badge&logo=linkedin&logoColor=666)](https://www.linkedin.com/in/maxwell-a-collins)
+[![Email](https://img.shields.io/badge/Email-0a0a0a?style=for-the-badge&logo=gmail&logoColor=666)](mailto:max@maxcollins.dev)
 
 <br>
 
-### `> open ~/.contact`
-
-<div align="center">
-
-[![Book a Call](https://img.shields.io/badge/Book_a_Strategy_Call-00F078?style=for-the-badge&logo=googlecalendar&logoColor=black)](https://code-rescue.com/book)
-[![Website](https://img.shields.io/badge/code--rescue.com-0a0a0f?style=for-the-badge&logo=safari&logoColor=white)](https://code-rescue.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/maxwell-a-collins)
-[![Email](https://img.shields.io/badge/max@code--rescue.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:max@code-rescue.com)
+<sub>Production-grade platforms in 90 days. One engineer. No shortcuts.</sub>
 
 </div>
 
-<br>
-
-<div align="center">
-<code>// if I can't show how a system pays for itself, I'll tell you before we start.</code>
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f3d2e,50:1a1a2e,100:0a0a0f&height=120&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:111111,100:0a0a0a&height=100&section=footer" />
