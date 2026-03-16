@@ -1,0 +1,10 @@
+<svg width="1200" height="220" viewBox="0 0 1200 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="220" fill="#0a0a0a"/>
+  <text x="60" y="60" fill="#e0e0e0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" letter-spacing="-0.5">
+    <tspan x="60" dy="0">I build </tspan><tspan fill="#fafafa" font-weight="500">the infrastructure that startups scale on</tspan>
+  </text>
+  <text x="60" y="105" fill="#e0e0e0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" letter-spacing="-0.5">— APIs, databases, permission systems, deduplication</text>
+  <text x="60" y="150" fill="#e0e0e0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="300" letter-spacing="-0.5">
+    <tspan>pipelines. What takes teams 12–18 months, I ship in </tspan><tspan fill="#fafafa" font-weight="500">90 days.</tspan>
+  </text>
+</svg>

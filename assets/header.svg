@@ -1,0 +1,7 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="400" fill="#0a0a0a"/>
+  <text x="60" y="280" fill="#fafafa" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="120" font-weight="300" letter-spacing="-4">Maxwell Collins</text>
+  <line x1="60" y1="310" x2="1140" y2="310" stroke="#333333" stroke-width="1"/>
+  <text x="60" y="350" fill="#666666" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="400" letter-spacing="1">Software Studio</text>
+  <text x="1140" y="350" fill="#666666" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" text-anchor="end" letter-spacing="0.5">Production-grade platforms in 90 days. One engineer. No shortcuts.</text>
+</svg>
