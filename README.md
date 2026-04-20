@@ -1,81 +1,107 @@
-<div align="center">
+<sub>MAXWELL COLLINS</sub>
 
-<img src="assets/header.svg" width="100%" alt="Maxwell Collins — Software Studio" />
+I build production software with AI coding agents. Over ten thousand hours and twenty-plus projects, I have developed a methodology for keeping AI-generated code correct at scale — **Domain-Rules-Driven Development**. I am not an engineer by training. I am a systems architect who specifies what software must do, verifies that it does it, and enforces that it cannot do otherwise.
 
-<br>
+I am the founder of [**Code-Rescue**](mailto:max@code-rescue.com), a firm that rebuilds legacy software ecosystems using AI-augmented engineering. My publication is at **[maxwellacollins.com](https://maxwellacollins.com)** — the methodology, the rule set that implements it, the enforcement stack, and the engineering field notes.
 
-<img src="assets/manifesto.svg" width="100%" alt="I build the infrastructure that startups scale on" />
+---
 
-<br><br>
+<sub>METHODOLOGY · VERSION 2</sub>
 
-<img src="assets/numbers.svg" width="100%" alt="20+ systems · 13K+ files · 170+ endpoints · 594 tests · 80%+ coverage · 90-day delivery" />
+## Domain-Rules-Driven Development
 
-<br><br>
+A specification is commonly treated as an input to code generation. That expectation is wrong. A specification treated as an input is read once, referenced imperfectly, and quietly overruled by the code written against it. The gap is not closed by writing better specifications. It is closed by changing what a specification is.
 
-</div>
+| | |
+| --- | --- |
+| **Machine-testable rules** | over prose specifications |
+| **Mechanical enforcement** | over agent compliance |
+| **Source-of-truth authority** | over reconciliation |
+| **Monotonic rule sets** | over revisable specifications |
 
-<div align="center">
+The items on the right are not rejected. They are insufficient for software produced by agents that are not themselves bound by the specification.
 
-## Work
+→ [Read the full manifesto](https://maxwellacollins.com/manifesto) · [Browse the rule set](https://maxwellacollins.com/rules)
 
-<br>
+---
 
-<a href="https://github.com/BIMS-Corp/Property-Linkware-App">
-  <img src="assets/card-plw.svg" width="48%" alt="Property Linkware" />
-</a>&nbsp;&nbsp;<a href="#">
-  <img src="assets/card-helm.svg" width="48%" alt="Helm Intelligence" />
-</a>
+<sub>THE TWELVE RULES</sub>
 
-<br><br>
+Every domain rule in the methodology satisfies twelve properties. The properties are the methodology.
 
-<a href="#">
-  <img src="assets/card-codex.svg" width="48%" alt="Codex Audit" />
-</a>&nbsp;&nbsp;<a href="#">
-  <img src="assets/card-greenwood.svg" width="48%" alt="Greenwood Hall" />
-</a>
+| | Rule | Tagline |
+| :---: | --- | --- |
+| **I** | Machine-Testability | Every rule is expressible as an assertion. |
+| **II** | Three Layers | Every rule belongs to spec, consistency, or adversarial. |
+| **III** | Authority Hierarchy | The rule is truth. The code is not evidence. |
+| **IV** | Monotonicity | Rules grow. They do not shrink. |
+| **V** | Origin Citation | Every rule names the decision that produced it. |
+| **VI** | Incident Capture | Every failure becomes a rule that prevents its recurrence. |
+| **VII** | Mechanical Enforcement | Advisory rules decay. Mechanical rules don't. |
+| **VIII** | Specification Completeness | Unspecified behavior is a violation. |
+| **IX** | Adversarial Coverage | Every external surface has an adversarial rule. |
+| **X** | Shared Vocabulary | Cross-cutting concerns have canonical owners. |
+| **XI** | Zero Deferral | Known violations are resolved before the domain closes. |
+| **XII** | Gate as Specification | The quality gate is the rule set in executable form. |
 
-<br><br>
+---
 
-<a href="#">
-  <img src="assets/card-outreach.svg" width="48%" alt="Outreach Engine" />
-</a>&nbsp;&nbsp;<a href="#">
-  <img src="assets/card-mcc.svg" width="48%" alt="Mobile Command Center" />
-</a>
+<sub>ANATOMY OF A DOMAIN RULE</sub>
 
-<br>
+A worked specimen. The following rule is canonical and governs approximately every entity access in a cross-organizationally scoped system.
 
-<details>
-<summary><sub>+ 14 more repositories</sub></summary>
-<br>
-<sub>Property Organizer · PLW Hub · MAC Invoices · Apollo MCP Server · AI Coach Engine · Guardrails Plugin · Certified Environment · Code Rescue · Life Sphere · Ops Command Center · NextPhase Website · Dashboard Starters · NestJS Clean Architecture · Property Linkware Application</sub>
-</details>
+> **AUTH-5 — Cross-organization access** · `adversarial` · Locked 2026-04-07
+>
+> Every single-entity fetch MUST include `organizationId = ctx.session.activeOrganizationId` in the SQL WHERE clause. If the query returns zero rows, throw `NOT_FOUND "<Entity> not found"`. Never use `FORBIDDEN "Access denied"` — that error leaks entity existence.
 
-<br>
+```ts
+// Testable assertion — applies to any request crossing an organization boundary,
+// regardless of whether the entity exists, is soft-deleted, or belongs to another org:
+expect(error.code).toBe("NOT_FOUND");
+expect(error.message).toBe("<Entity> not found");
+```
 
-<img src="assets/divider.svg" width="100%" />
+**Enforcement.** Write-time hook blocks the violating string. Gate-time static analysis requires the predicate in every WHERE clause touching an org-scoped table. Runtime middleware verifies session active organization before procedure body executes.
 
-<br>
+**Violation closed.** Three distinct failure cases — entity does not exist, entity was soft-deleted, entity belongs to another organization — collapse into a single indistinguishable response. Enumeration across organizational boundaries ceases to be possible.
 
-<sub>
+→ [See the full rule](https://maxwellacollins.com/rules/auth-5) · [Browse all rules](https://maxwellacollins.com/rules)
 
-**Stack** &nbsp; NestJS · Next.js · PostgreSQL · PostGIS · TypeScript · React · React Native · Fastify · Prisma · TypeORM · Drizzle · Docker · Redis · BullMQ · AWS S3 · Claude API · Stripe
+---
 
-</sub>
+<sub>RECENT FIELD NOTES</sub>
 
-<br>
+Engineering field notes on AI-augmented software development. Each is a distilled incident.
 
-<sub>
+| Date | Title |
+| --- | --- |
+| 2026-04-12 | [The Zero Deferral Policy](https://maxwellacollins.com/writing/zero-deferral-policy) |
+| 2026-04-07 | [The Session 35 Breakthrough](https://maxwellacollins.com/writing/session-35-breakthrough) |
+| 2026-04-01 | [The 4,800 Fake Tests Weekend](https://maxwellacollins.com/writing/fake-tests-weekend) |
+| 2026-03-25 | [Why I Stopped Using Feature Branches](https://maxwellacollins.com/writing/feature-branches) |
+| 2026-03-19 | [The Worktree Disaster](https://maxwellacollins.com/writing/worktree-disaster) |
 
-**Patterns** &nbsp; DDD · CQRS · Clean Architecture · Event-Driven · Repository · Saga · TDD · Contract Testing
+→ [All writing](https://maxwellacollins.com/writing) · [RSS](https://maxwellacollins.com/feed.xml)
 
-</sub>
+---
 
-<br><br>
+<sub>NOW</sub>
 
-<a href="https://maxwellacollins.com"><img src="https://img.shields.io/badge/maxwellacollins.com-0a0a0a?style=flat-square" alt="Website" /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/maxwell-a-collins"><img src="https://img.shields.io/badge/LinkedIn-0a0a0a?style=flat-square&logo=linkedin&logoColor=666" alt="LinkedIn" /></a>&nbsp;&nbsp;<a href="mailto:max@maxwellacollins.com"><img src="https://img.shields.io/badge/Email-0a0a0a?style=flat-square&logo=gmail&logoColor=666" alt="Email" /></a>
+**Building.** Domain-Rules-Driven Development. Methodology stabilized over three rebuilds and twelve thousand hours of AI-augmented engineering. Next: open-sourcing the enforcement toolkit.
 
-<br><br>
+**Working on.** Active rebuild of a four-application legacy ecosystem for a private client. Six months in. Forty-two domain files, ~4,000 rules. Current stage: front-end implementation. Expected ship: summer 2026.
 
-<img src="assets/footer.svg" width="100%" alt="footer" />
+**Available for.** Short-engagement architecture reviews on AI-augmented rebuilds for private clients.
 
-</div>
+→ [/now](https://maxwellacollins.com/now)
+
+---
+
+<sub>CONTACT</sub>
+
+- Site — [maxwellacollins.com](https://maxwellacollins.com)
+- Email — [max@code-rescue.com](mailto:max@code-rescue.com)
+- RSS — [maxwellacollins.com/feed.xml](https://maxwellacollins.com/feed.xml)
+
+> [!NOTE]
+> This profile publishes in plain prose. No hero banners. No typing animations. No skill grids. No visitor counters. The methodology is the signal.
