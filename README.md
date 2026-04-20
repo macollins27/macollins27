@@ -1,12 +1,12 @@
 <sub>MAXWELL COLLINS</sub>
 
-I build production software with AI coding agents. Over ten thousand hours and twenty-plus projects, I have developed a methodology for keeping AI-generated code correct at scale — **Domain-Rules-Driven Development**. I am not an engineer by training. I am a systems architect who specifies what software must do, verifies that it does it, and enforces that it cannot do otherwise.
+I build production software with AI coding agents. Over 10,000 hours and 22 projects, I have developed a methodology for keeping AI-generated code correct at scale, **Domain-Rules-Driven Development**. I am not an engineer by training. I am a systems architect who specifies what software must do, verifies that it does it, and enforces that it cannot do otherwise.
 
-I am the founder of [**Code-Rescue**](mailto:max@code-rescue.com), a firm that rebuilds legacy software ecosystems using AI-augmented engineering. My publication is at **[maxwellacollins.com](https://maxwellacollins.com)** — the methodology, the rule set that implements it, the enforcement stack, and the engineering field notes.
+I am the founder of [**Code-Rescue**](mailto:max@code-rescue.com), a firm that rebuilds legacy software ecosystems using AI augmented engineering. My publication is at **[maxwellacollins.com](https://maxwellacollins.com)** — the methodology, the rule set that implements it, the enforcement stack, and the engineering field notes.
 
 ---
 
-<sub>METHODOLOGY · VERSION 2</sub>
+<sub>METHODOLOGY</sub>
 
 ## Domain-Rules-Driven Development
 
@@ -71,7 +71,7 @@ expect(error.message).toBe("<Entity> not found");
 
 <sub>RECENT FIELD NOTES</sub>
 
-Engineering field notes on AI-augmented software development. Each is a distilled incident.
+Engineering field notes on AI augmented software development. Each is a distilled incident.
 
 | Date | Title |
 | --- | --- |
@@ -87,11 +87,11 @@ Engineering field notes on AI-augmented software development. Each is a distille
 
 <sub>NOW</sub>
 
-**Building.** Domain-Rules-Driven Development. Methodology stabilized over three rebuilds and twelve thousand hours of AI-augmented engineering. Next: open-sourcing the enforcement toolkit.
+**Building.** Domain-Rules-Driven Development. Methodology stabilized over three rebuilds and 10,000 hours of AI augmented engineering. Next: open-sourcing the enforcement toolkit.
 
-**Working on.** Active rebuild of a four-application legacy ecosystem for a private client. Six months in. Forty-two domain files, ~4,000 rules. Current stage: front-end implementation. Expected ship: summer 2026.
+**Working on.** Active rebuild of a four-application legacy ecosystem for a private client. Six months in. 42 domain files, ~4,000 rules. Current stage: front-end implementation. Expected ship: summer 2026.
 
-**Available for.** Short-engagement architecture reviews on AI-augmented rebuilds for private clients.
+**Available for.** Short-engagement architecture reviews on AI augmented rebuilds for private clients.
 
 → [/now](https://maxwellacollins.com/now)
 
@@ -102,6 +102,3 @@ Engineering field notes on AI-augmented software development. Each is a distille
 - Site — [maxwellacollins.com](https://maxwellacollins.com)
 - Email — [max@code-rescue.com](mailto:max@code-rescue.com)
 - RSS — [maxwellacollins.com/feed.xml](https://maxwellacollins.com/feed.xml)
-
-> [!NOTE]
-> This profile publishes in plain prose. No hero banners. No typing animations. No skill grids. No visitor counters. The methodology is the signal.
